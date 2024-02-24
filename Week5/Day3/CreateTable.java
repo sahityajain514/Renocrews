@@ -5,7 +5,7 @@ class CreateTable {
 
         try{
 Class.forName("com.mysql.cj.jdbc.Driver");
-Connection con=DriverManager.getConnection("jdbc:mysql://localhost/mydatabasetoday","root","Papa@199901SJ");
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost/mydatabasetoday","root","Pass");
 //create query
             String query="create table table1(tId int(20) primary key auto_increment ,tName varchar(200) not null , tCity varchar(300))";
 
